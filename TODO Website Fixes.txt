@@ -1,0 +1,18 @@
+GreyHat Website Fixes
+---------------------
+Embed IRC
+GreyHat Logo - On click is a bit too low
+Would like greyhat hat image next to name
+Remove Textual Indent on Home page
+Center Facebook and Youtube Links on bottom bar
+Discuss the "Made with heart by Sai"
+About Page needs to be updated
+Distinction between Events and CTFs page
+Contact Us Page - where does the form go to
+Add Titles to each of the boxes
+Increase bottom border on boxes
+Change Archive Content
+Add left/right arrow buttons to carousel and indicators to bottom
+decrease carousel speed
+Help create doc so that future greyhat officers can easily maintain website
+Google Analytics
