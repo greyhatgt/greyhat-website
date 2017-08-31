@@ -1,0 +1,6 @@
+<span id="a">madh4tter</span>:<span id="b">~</span><span id="c">$</span> cat welcome.txt<br/>
+<p>┌─┐   Welcome to GreyHat, the <a href="http://www.gatech.edu/">gatech</a> infosec club.<br>|G|   Beginners come to learn.<br>┴─┴   Competitors come to pwn.</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>See <a href="https://goo.gl/ldcypI">our calendar</a> for meeting times/locations.<br><br>
+Visit us on <a href="https://www.facebook.com/groups/greyhatgt">Facebook</a> or<br>
+contact us at greyhatgt[at]gmail.com.
+</p>
