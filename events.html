@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreyHat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/lumen/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/fullcalendar.min.css">
+    <link rel="stylesheet" href="assets/css/fullcalendar.print.min.css" media='print'>
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js'></script>
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.1/fullcalendar.min.js'></script>
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.1/gcal.js'></script>
+    <script type='text/javascript'>
+        $(document).ready(function() {
+            $('#calendar').fullCalendar({
+                themeSystem: 'bootstrap3',
+                header: {
+			        left: 'prev,next today',
+			        center: 'title',
+			        right: 'month,agendaWeek,agendaDay,listMonth'
+		        },
+		        weekNumbers: true,
+		        navLinks: true, // can click day/week names to navigate views
+		        editable: false,
+                googleCalendarApiKey: 'AIzaSyAQ1u-emNJOKLboO8wXq7e1RCOQ9YoLQBA',
+                events: {
+                    googleCalendarId: 'rq5co7ng9s2m0ti4gvgp4254o4@group.calendar.google.com'
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header style="background-image:url(&quot;assets/img/ctfmeeting2017.jpg&quot;);">
+        <nav class="navbar navbar-default navbar-fixed-top" style="background-color:rgba(33,32,32,0.75);">
+            <div class="container">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="./index.html"><span class="text-title">Greyhat @ GT<img src="assets/img/greyhat_logo.png" alt="greyhat_logo" width="50" height="50"></span></a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation"><a href="./index.html">Home </a></li>
+                        <li class="active" role="presentation"><a href="./piazza.html">Piazza </a></li>
+                        <li class="active" role="presentation"><a href="#" target="_top">Events </a></li>
+                        <li role="presentation"><a class="hidden" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="row" style="margin:30px 0px 0px;padding:0px 15px;">
+        <div class="col-lg-push-3 col-md-push-3" style="padding:0px 0px;margin:0px;">
+            <h1 class="text-center">Events</h1></div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-push-3 col-md-6 col-md-push-3" style="margin:0px 0px 30px 0px;">
+                    <div id='calendar'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul></ul>
+    <div class="article-clean" style="font-family:Roboto, sans-serif;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="intro">
+                        <h1 class="text-center" style="font-family:Roboto, sans-serif;">News </h1>
+                        <div class="table-responsive" style="margin:0px 0px 30px 0px;">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="font-size:24px;"><strong>Sep 17 2017</strong></td>
+                                        <td style="font-size:20px;"> <a href="https://greyhat.gatech.edu/#madhatters">madh@tters</a> place 10th CSAW NA region undergrad team, qualify for finals </td>
+                                    </tr>
+                                    <tr></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
