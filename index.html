@@ -46,18 +46,18 @@ var foodcalc = function() {
 }
 
 window.onload = function() {
-    var is_snack = foodcalc()
-    var pizzaclass = ''
+    var is_pizza = foodcalc()
+    var foodclass = ''
     var food = ''
-    if (is_snack) {
-        pizzaclass = 'text-warning'
-        food = 'Snacks'
-    } else {
-        pizzaclass = 'text-success' // success
+    if (is_pizza) {
+        foodclass = 'text-success'
         food = 'Pizza'
+    } else {
+        foodclass = 'text-warning'
+        food = 'Snacks'
     }
     var pizzaline = document.getElementById('pizzaline')
-    pizzaline.classList.add(pizzaclass)
+    pizzaline.classList.add(foodclass)
     pizzaline.innerHTML = "This is a " + food + " Week"
 }
 </script>
